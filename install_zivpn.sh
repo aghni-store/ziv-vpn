@@ -13,8 +13,8 @@ BLUE='\033[0;34m'
 CYAN='\033[0;36m'
 WHITE='\033[1;37m'
 NC='\033[0m'
-REPO_URL="https://raw.githubusercontent.com/Pondok-Vpn"
-LICENSE_URL=https://raw.githubusercontent.com/Pondok-Vpn/udp-ziv/main/DAFTAR
+REPO_URL="https://raw.githubusercontent.com/aghni-store"
+LICENSE_URL=https://raw.githubusercontent.com/aghni-store/ziv-vpn/main/DAFTAR
 MENU_SCRIPT=/usr/local/bin/zivpn-menu
 log() {
     echo -e "[$(date '+%H:%M:%S')] $1"
@@ -155,9 +155,9 @@ echo -e "${YELLOW}Please download manually:${NC}"
 echo "----------------------------------------"
 echo "cd /usr/local/bin"
     if [[ "$ARCH" == "x86_64" ]] || [[ "$ARCH" == "amd64" ]]; then
-echo "wget https://raw.githubusercontent.com/Pondok-Vpn/udp-ziv/main/udp-zivpn-linux-amd64 -O zivpn"
+echo "wget https://raw.githubusercontent.com/aghni-store/ziv-vpn/main/udp-zivpn-linux-amd64 -O zivpn"
     else
-echo "wget https://raw.githubusercontent.com/Pondok-Vpn/udp-ziv/main/udp-zivpn-linux-arm64 -O zivpn"
+echo "wget https://raw.githubusercontent.com/aghni-store/aghni-store/main/udp-zivpn-linux-arm64 -O zivpn"
     fi
 echo "chmod +x zivpn"
 echo "systemctl restart zivpn"
